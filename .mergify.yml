@@ -2,7 +2,6 @@ pull_request_rules:
   - name: ci testing kalo sukses ke squash dengan label
     conditions:
       - base=main
-      - label=ready-to-merge
     actions:
       comment:
         message: terima kasih atas kontribusinya @{{author}}!
